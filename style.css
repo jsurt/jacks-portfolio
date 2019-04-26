@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #999999;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.section-wrap {
+  width: 100%; 
+  height: 100%;
+  padding: 25px;
+}
+
+.about-me {
+  /* background: #ff0000; */
+}
+
+.skills {
+  /* background: #0000ff; */
+}
+
+.portfolio {
+  padding: 0px;
+  /* background: #ffff00; */
+}
+
+.app-screenshot {
+ width: 376px;
+ margin: auto;
+ margin-top: 50px;
+}
+
+.contact {
+  background: #008000;
+}
