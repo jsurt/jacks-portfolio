@@ -12,7 +12,7 @@
   <nav class="navigation">
     <ul class="nav-list">
       <li class="nav-item"><a href="#home">Home</a></li>
-      <li class="nav-item"><a href="#portfolio">Projects</a></li>
+      <li class="nav-item"><a href="#portfolio-start">Projects</a></li>
       <li class="nav-item"><a href="#about-me">About Me</a></li>
       <li class="nav-item"><a href="#contact">Contact</a></li>
     </ul>
@@ -20,12 +20,12 @@
 
   <div id="home" class="section-wrap about-wrap">
     <section class="about-section">
-      <p class="greeting name-p">Hey, I'm <span class="name-span">Jack</span>.</p>
+      <p class="greeting name-p">Hey, I'm <span class="name-span">Jack Surtees</span>.</p>
       <p class="greeting headline-p">Being a <span class="title-span">Fullstack Developer</span> is my thing.</p>
     </section>
   </div>
 
-  <div id="portfolio" class="section-wrap portfolio">
+  <div id="portfolio-start" class="section-wrap portfolio">
       <section class="project-1">
         <img class="app-screenshot threetv-img" src="threetv-img.png" alt="Screenshot of Retro YouTube app">
         <div class="tech-icons-div">
@@ -43,16 +43,55 @@
               <img class="icon node" src="node-icon.png" alt="Node icon">
           </div>
         </div>
+        <p class="app-description threetv-description">I think I can say with a fair amount confidence that everybody uses YouTube, most pretty regularly. And because building a web app 
+          that would interest a wide range of people was very appealing to me, I thought an app that integrated YouTube would be just the thing 
+          to build. Retro YouTube was a project where I wanted to not only use the YouTube API, but use it in a way I hadn't seen before. I
+          wanted to display YouTube videos in an entirely different way and change the way the User interacts with the videos. This led me to
+          display the video results on a 3D model of a old fashioned television. In order to stay consistent with the idea of TV, I decided users would
+          interact with videos by using their phone as a remote, which renders via media queries when the site is loaded on mobile.
+        </p>
+        <a href="#matcher" class="to-project next">Next Project</a>
       </section>
   </div>
 
-  <div class="section-wrap portfolio">      
+  <div id="matcher" class="section-wrap portfolio">      
     <section class="project-2">
       <img class="app-screenshot matcher-img" src="matcher-img.png" alt="Screenshot of Match-Er app">
-      <div class="front-end-icons">
+      <div class="tech-icons-div">
+        <div class="front-end-icons">
           <img class="icon react" src="react-icon.png" alt="React icon">
           <img class="icon redux" src="redux-icon.png" alt="Redux icon">
           <img class="icon css" src="css-icon.png" alt="CSS icon">
+        </div>
+        <div class="backend-icons">
+          <img class="icon express" src="new-express-icon.png" alt="Express icon">
+          <img class="icon node" src="node-icon.png" alt="Node icon">
+          <img class="icon mongodb" src="mongodb-icon.png" alt="MongoDB icon">
+          <img class="icon jwt" src="jwt-icon.png" alt="JSON Web Token icon">
+        </div>
+      </div>
+      <p class="app-description matcher-description">
+        Yes, it sounds like a dating site, but it's actually an app that aims to connect tennis players with each other. I have loved tennis
+        for a long time, but growing up in Bardstown, KY, it was always a challenge to find new people to play matches with, outside of high 
+        school competitions. Everybody tended to stick with the two or three people they usually played with. There was an ample pool of
+        talented players from all ages, but there was nothing connecting them. Match-Er tries to solve that problem by giving users the 
+        ability to friend nearby tennis players, send and receive invitations to matches, arrange the time and place, save the scores of
+        completed matches, and track their overall record.
+      </p>
+      <a href="#portfolio-start" class="to-project previous">Previous Project</a>
+      <a href="#task-timer" class="to-project next">Next Project</a>
+    </section>
+  </div>
+
+  <div id="task-timer" class="section-wrap portfolio">      
+    <section class="project-3">
+      <img class="app-screenshot task-timer-img" src="task-timer-img.png" alt="Screenshot of Task Timer application">
+      <div class="tech-icons-div">
+        <div class="front-end-icons">
+          <img class="icon html" src="html-icon.png" alt="HTML icon">
+          <img class="icon css" src="css-icon.png" alt="CSS icon">
+          <img class="icon js" src="javascript-icon.png" alt="JavaScript icon">
+          <img class="icon jquery" src="jquery-icon.png" alt="jQuery icon">
         </div>
         <div class="backend-icons">
             <img class="icon express" src="new-express-icon.png" alt="Express icon">
@@ -61,30 +100,37 @@
             <img class="icon jwt" src="jwt-icon.png" alt="JSON Web Token icon">
         </div>
       </div>
+        <p class="app-description task-timer-description">    
+          Task-Timer started out as timer for Rubik's cubes that would keep record of all solve times. However, I quickly realized that this 
+          idea wouldn't appeal to, let alone be useful to, most people, so I reworked it as a timer for tasks people like me occupy themselves 
+          with. Users select a task from a dropdown such as checking email, catching up on news, or studying and press "Start." A timer runs 
+          until the user decides to stop their task. After stopping the task, the user is able to make notes on what they specifically they 
+          worked on, or what they accomplished. The task's title, time, date, and notes are saved and can be viewed along with other previous 
+          tasks. Parts of the development of this app, such as building a timer with JavaScript, were challenging but enjoyable.
+        </p>
+        <a href="#matcher" class="to-project previous">Previous Project</a>
     </section>
   </div>
 
-  <div class="section-wrap portfolio">      
-    <section class="project-3">
-      <img class="app-screenshot task-timer-img" src="task-timer-img.png" alt="Screenshot of Task Timer application">
-      <div class="tech-icons-div">
-          <div class="front-end-icons">
-            <img class="icon html" src="html-icon.png" alt="HTML icon">
-            <img class="icon css" src="css-icon.png" alt="CSS icon">
-            <img class="icon js" src="javascript-icon.png" alt="JavaScript icon">
-            <img class="icon jquery" src="jquery-icon.png" alt="jQuery icon">
-          </div>
-          <div class="backend-icons">
-              <img class="icon express" src="new-express-icon.png" alt="Express icon">
-              <img class="icon node" src="node-icon.png" alt="Node icon">
-              <img class="icon mongodb" src="mongodb-icon.png" alt="MongoDB icon">
-              <img class="icon jwt" src="jwt-icon.png" alt="JSON Web Token icon">
-          </div>
-        </div>
-    </section>
+  <div id="about-me" class="section-wrap about-me">
+    <h1 class="about-me-h1">About Me</h1>
+    <p class="about-me-p">
+      My real name is John, but everyone calls me Jack. You can also call me a fullstack developer who loves what he does. How could I not?
+      After all, things are never boring in a developer's day as new challenges and complicated problems are commonplace. But, also
+      commonplace, is the joy of solving those complicated problems and the sense of accomplishment when a project is finished. I thoroughly 
+      enjoy learning new frameworks and libraries that build and improve my skills and allow me to see aspects of development from a different 
+      perspective. I am rarely, if ever, fully content with my knowledge and skills, because I know I can always be learning and improving.
+    </p>
+    <p class="about-me-p">
+      Away from coding, I tend to keep busy with many different activities and hobbies. They range from the Boston Red Sox, to my violin, 
+      to Rubik's cubes, to playing tennis or going on a hike, to getting a drink with friends, to just sitting back with a book. I don't 
+      like to be stuck doing the same thing all the time, and I believe that's why I love being a web developer: the possibilites of what 
+      one can build are never ending.
+    </p>
   </div>
-
-  <div id="about-me" class="section-wrap about-me"></div>
-  <div id="contact" class="section-wrap contact"></div>
+  <div id="contact" class="section-wrap contact">
+    <h1 class="contact-h1">Contact Me</h1>
+    
+  </div>
 </body>
 </html>
