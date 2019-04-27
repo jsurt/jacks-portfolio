@@ -1,19 +1,23 @@
 .icon {
-  width: 45px;
+  width: 40px;
 }
 
 .css {
-  width: 35px;
+  width: 30px;
 } 
 
 .js {
-  width: 45px;
+  width: 40px;
 }
 
 .jquery {
-  width: 53px;
+  width: 48px;
 }
 
 .threejs {
-  width: 49px;
+  width: 44px;
+}
+
+.jwt {
+  height: 20px;
 }
