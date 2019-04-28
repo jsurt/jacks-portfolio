@@ -3,9 +3,11 @@
 }
 
 html, body {
-  width: 100%;
+  position: absolute;
+  width: 100vw;
   height: 100%;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 html::-webkit-scrollbar, body::-webkit-scrollbar {
@@ -70,19 +72,18 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   color: #ffffff;
   transform: background-color 0.5s;
   background-color: #309a72;
+  transition: box-shadow 0.4s;
   box-shadow: 2px 2px 2px #222222;
 }
 
 .nav-button:hover, .nav-button:active {
-  color: #ffffff;
-  border-color: #f9b3d6;
-  background-color: #309a72;
+  box-shadow: 4px 4px 3px #444444;
 }
 
 .about-me-h1 {
   text-align: center;
   font-family: 'Orbitron', sans-serif;
-  color: #f9b3d6;
+  color: #ce4166
 }
 
 .about-me-p {
@@ -99,7 +100,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   padding-left: 7px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
-  color: #b1f6cb;
+  color: #ce4166
 }
 
 .portfolio {

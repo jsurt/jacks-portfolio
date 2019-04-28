@@ -7,7 +7,7 @@
   grid-template-rows: 50% 50%;
   grid-template-areas: 
     "greeting"
-    "navbuttons";
+    "nav-buttons";
   justify-content: center;
   align-content: center;
 }
@@ -18,12 +18,19 @@
 }
 
 .nav-buttons-section {
-  position: relative;
-  grid-area: navbuttons;
+  grid-area: nav-buttons;
   background: url(what-the-hex.png);
 }
 
+.greeting-section, .nav-buttons-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.nav-button {
+  margin: 10px;
+}
 
 /* About Me grid */
 .about-me-wrap {
@@ -36,7 +43,7 @@
     "header"
     "bio"
     "skillset";
-  background: url(background-pattern-dark.png);
+    background: url(what-the-hex-dark.png);
 }
 
 .about-me-h1 {
