@@ -5,24 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jack's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron|Raleway" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Cute+Font|Roboto" rel="stylesheet"> -->
   <link rel="stylesheet" href="icons.css">
+  <link rel="stylesheet" href="grids.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
-  <nav class="navigation">
+  <!-- <nav class="navigation">
     <ul class="nav-list">
       <li class="nav-item"><a href="#home">Home</a></li>
       <li class="nav-item"><a href="#portfolio-start">Projects</a></li>
       <li class="nav-item"><a href="#about-me">About Me</a></li>
       <li class="nav-item"><a href="#contact">Contact</a></li>
     </ul>
-  </nav>
+  </nav> -->
 
-  <div id="home" class="section-wrap about-wrap">
-    <section class="about-section">
-      <p class="greeting name-p">Hey, I'm <span class="name-span">Jack Surtees</span>.</p>
-      <p class="greeting headline-p">Being a <span class="title-span">Fullstack Developer</span> is my thing.</p>
+  <div id="home" class="section-wrap home-wrap">
+    <section class="greeting-section">
+      <p class="greeting name-p">Hi, I'm 
+        <span class="name-span">Jack Surtees</span>. 
+        I'm a <br />
+        <span class="title-decoration">&#60;&#47;&#62;</span>
+        <span class="title-span">Fullstack Developer</span>
+        <span class="title-decoration">&#60;&#47;&#62;</span>.
+      </p>
     </section>
+    <section class="nav-buttons-section">
+      <div class="nav-buttons-div">
+        <a class="nav-button about-me-btn" href="#about-me">About Me</a>
+        <a class="nav-button portfolio-btn" href="#portfolio-start">Portfolio</a>
+        <a class="nav-button contact-btn" href="#contact">Contact</a>
+      </div>
+    </section>
+    <div class="empty-grid-item"></div>
+  </div>
+  <div id="about-me" class="section-wrap about-me-wrap">
+      <h1 class="about-me-h1">About Me</h1>
+      <div class="bio-div">
+        <h2 class="about-me-h2">Bio</h2>
+        <p class="about-me-p">
+            I am a dedicated and enthusiastic full stack developer and a recent graduate of Thinkful's Full Stack Flex course.  I love web development. 
+            Everything from dreaming up that new app idea, to working with other developers, to showing off a finished application,  make it an ever exciting pursuit. I 
+            especially enjoy learning new frameworks and libraries that change the way I approach problems and the development process. 
+        </p>
+        <p class="about-me-p">
+            Away from coding, I keep myself busy with watching the Red Sox, playing 
+            my violin, going on a hike or playing tennis, getting a drink with friends, maybe some baking, or 
+            just kicking back with a book. I don't like the same old, same old. And I believe that's why I love 
+            being a web developer: there's just so much to do out there.
+        </p>
+      </div>
+      <div class="skillsets-div">
+        <h2 class="about-me-h2">My Skillset</h2>
+      </div>
+      <!-- <a href="#portfolio-start">Portfolio</a> -->
   </div>
 
   <div id="portfolio-start" class="section-wrap portfolio">
@@ -78,7 +117,6 @@
         ability to friend nearby tennis players, send and receive invitations to matches, arrange the time and place, save the scores of
         completed matches, and track their overall record.
       </p>
-      <a href="#portfolio-start" class="to-project previous">Previous Project</a>
       <a href="#task-timer" class="to-project next">Next Project</a>
     </section>
   </div>
@@ -108,32 +146,22 @@
           worked on, or what they accomplished. The task's title, time, date, and notes are saved and can be viewed along with other previous 
           tasks. Parts of the development of this app, such as building a timer with JavaScript, were challenging but enjoyable.
         </p>
-        <a href="#matcher" class="to-project previous">Previous Project</a>
+        <a href="#contact" class="to-project previous">Contact</a>
     </section>
   </div>
 
-  <div id="about-me" class="section-wrap about-me">
-    <h1 class="about-me-h1">About Me</h1>
-    <p class="about-me-p">
-      My real name is John, but everyone calls me Jack. You can also call me a fullstack developer who loves what he does. How could I not?
-      After all, things are never boring in a developer's day as new challenges and complicated problems are commonplace. But, also
-      commonplace, is the joy of solving those complicated problems and the sense of accomplishment when a project is finished. I thoroughly 
-      enjoy learning new frameworks and libraries that build and improve my skills and allow me to see aspects of development from a different 
-      perspective. I am rarely, if ever, fully content with my knowledge and skills, because I know I can always be learning and improving.
-    </p>
-    <p class="about-me-p">
-      Away from coding, I tend to keep busy with many different activities and hobbies. They range from the Boston Red Sox, to my violin, 
-      to Rubik's cubes, to playing tennis or going on a hike, to getting a drink with friends, to just sitting back with a book. I don't 
-      like to be stuck doing the same thing all the time, and I believe that's why I love being a web developer: the possibilites of what 
-      one can build are never ending.
-    </p>
-  </div>
   <div id="contact" class="section-wrap contact">
-    <h1 class="contact-h1">GET IN TOUCH TODAY</h1>
-    <p class="email-label">Reach out to me through email. I'll respond right away!</p>
-    <img class="icon github" src="gmail-icon.png" alt="Gmail icon">
-    <p class="github-label">Check out my GitHub account here</p>
-    <img class="icon gmail" src="github-icon.png" alt="GitHub icon">
+    <section class="contact-section">
+      <h1 class="contact-h1">GET IN TOUCH TODAY</h1>
+      <p class="email-label">Reach out to me through email. I'll respond right away!</p>
+      <img class="icon github" src="gmail-icon.png" alt="Gmail icon">
+      <p class="github-label">Check out my GitHub account here</p>
+      <img class="icon gmail" src="github-icon.png" alt="GitHub icon">
+    </section>
+    <div class="contact-page-links-div">
+      <a class="contact-page-link to-top" href="#home">Top of page</a>
+      <a class="contact-page-link view-source" href="https://github.com/jsurt/porfolio-site" target="_blank">View page source</a>
+    </div>
   </div>
 </body>
 </html>

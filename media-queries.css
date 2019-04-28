@@ -1,0 +1,42 @@
+@media only screen and (min-width: 625px) {
+  .name-p {
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .name-span {
+    font-size: 42px;
+  }
+  .nav-button {
+    color: #ffffff;
+    background-color: #f9b3d6;
+  }
+  .about-me-wrap {
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-areas:
+      "header header"
+      "bio skillset"
+      "bio skillset";
+  }
+  .about-me-h2 {
+    text-align: center;
+  }
+}
+
+/* @media only screen and (min-width: 850px) {
+  .about-me-wrap {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-areas:
+      "header header"
+      "bio skillset"
+      "bio skillset";
+  }
+} */
+
+@media only screen and (max-height: 510px) {
+  .name-p {
+    margin-top: 25px;
+  }
+}

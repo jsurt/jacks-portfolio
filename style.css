@@ -12,34 +12,95 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none;
 }
 
-.navigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #999999;
-}
-
-.nav-list {
-  list-style: none;
-}
-
-.nav-item {
-  display: inline-block;
-}
-
-.section-wrap {
-  width: 100%; 
+.greeting-section, .nav-buttons-section {
   height: 100%;
-  padding: 25px;
+  width: 100%;
+  text-align: center;
 }
 
-.about-me {
-  /* background: #ff0000; */
+
+.greeting {
+  max-width: 640px;
+  margin: auto;
+  font-family: 'Orbitron', sans-serif;
 }
 
-.skills {
-  /* background: #0000ff; */
+
+.name-p {
+  margin-top: 100px;
+  margin-bottom: 7%;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.name-span {
+  color: #997bfa;
+  font-size: 25px;
+}
+
+.headline-p {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.title-span {
+  border-bottom: 2px solid #997bfa;
+}
+
+/* .headline-p {
+  
+} */
+
+.nav-buttons-div {
+  max-width: 320px;
+  margin: auto;
+  position: absolute;
+  top: 48%;
+  right: 0;
+  bottom: 50%;
+  left: 0;
+}
+
+.nav-button {
+  display: inline-block;
+  width: 90px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 2px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  transform: background-color 0.5s;
+  background-color: #f9b3d6
+}
+
+.nav-button:hover, .nav-button:active {
+  color: #ffffff;
+  border-color: #f9b3d6;
+  background-color: #f9b3d6;
+}
+
+.about-me-h1 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #f9b3d6;
+}
+
+.about-me-p {
+  max-width: 420px;
+  margin: auto;
+  padding: 8px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+.about-me-h2 {
+  margin-top: 0px;
+  padding-left: 7px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #b1f6cb;
 }
 
 .portfolio {
@@ -53,6 +114,24 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
  margin-top: 50px;
 }
 
-.contact {
-  /* background: #008000; */
+
+
+
+
+
+
+/* .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #999999;
 }
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+} */

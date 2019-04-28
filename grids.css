@@ -1,0 +1,55 @@
+/* Home page grid */
+.home-wrap {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 20% 40%;
+  grid-template-areas: 
+    "greeting"
+    "nav-buttons"
+    "empty";
+  justify-content: center;
+  align-content: center;
+}
+
+.greeting-section {
+  grid-area: "greeting";
+  background: url(background-pattern-light.png);
+}
+
+.nav-buttons-section {
+  grid-area: "nav-buttons";
+  background: url(background-pattern-dark.png);
+}
+
+.empty-grid-item {
+  grid-area: "empty";
+  background: url(background-pattern-light.png);
+}
+
+/* About Me grid */
+.about-me-wrap {
+  display: grid;
+  height: 150%;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 45% 45%;
+  grid-template-areas:
+    "header"
+    "bio"
+    "skillset";
+  background: url(background-pattern-dark.png);
+}
+
+.about-me-h1 {
+  grid-area: header;
+}
+
+.bio-div {
+  grid-area: bio;
+}
+
+.skillsets-div {
+  grid-area: skillset;
+}
