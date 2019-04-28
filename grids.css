@@ -4,29 +4,26 @@
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 40% 20% 40%;
+  grid-template-rows: 50% 50%;
   grid-template-areas: 
     "greeting"
-    "nav-buttons"
-    "empty";
+    "navbuttons";
   justify-content: center;
   align-content: center;
 }
 
 .greeting-section {
-  grid-area: "greeting";
-  background: url(background-pattern-light.png);
+  grid-area: greeting;
+  background: url(what-the-hex-dark.png); 
 }
 
 .nav-buttons-section {
-  grid-area: "nav-buttons";
-  background: url(background-pattern-dark.png);
+  position: relative;
+  grid-area: navbuttons;
+  background: url(what-the-hex.png);
 }
 
-.empty-grid-item {
-  grid-area: "empty";
-  background: url(background-pattern-light.png);
-}
+
 
 /* About Me grid */
 .about-me-wrap {

@@ -1,14 +1,15 @@
 @media only screen and (min-width: 625px) {
   .name-p {
+    width: 640px;
     font-size: 32px;
     line-height: 52px;
   }
-  .name-span {
+  /* .name-span {
     font-size: 42px;
-  }
+  } */
   .nav-button {
     color: #ffffff;
-    background-color: #f9b3d6;
+    background-color: #309a72;
   }
   .about-me-wrap {
     height: 100%;
