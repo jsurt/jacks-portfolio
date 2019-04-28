@@ -13,12 +13,14 @@
   }
   .about-me-wrap {
     height: 100%;
+    min-height: 620px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 45% 45%;
+    grid-template-rows: 80%;
     grid-template-areas:
-      "header header"
-      "bio skillset"
       "bio skillset";
+    /* justify-content: baseline;
+    align-content: baseline;
+    align-items: baseline; */
   }
   .about-me-h2 {
     text-align: center;

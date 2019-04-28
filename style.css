@@ -88,19 +88,41 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 .about-me-p {
   max-width: 420px;
-  margin: auto;
-  padding: 8px;
+  margin: 0px auto;
+  padding: 14px 8px 14px 8px;
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   text-align: justify;
+  line-height: 24px;
 }
 
 .about-me-h2 {
-  margin-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   padding-left: 7px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   color: #ce4166
+}
+
+.bio-p-divider {
+  border-color: #309a72;
+  width: 150px;
+  margin: 0px auto;
+}
+
+.skills-header {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.front-skills-h3, .back-skills-h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #daf431;
+}
+
+.back-skills-h3 {
+  margin-top: 30px;
 }
 
 .portfolio {
@@ -110,7 +132,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 .app-screenshot {
  width: 376px;
- margin: auto;
+ margin: 5px auto;
  margin-top: 50px;
 }
 

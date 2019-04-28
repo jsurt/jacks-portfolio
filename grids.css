@@ -35,25 +35,79 @@
 /* About Me grid */
 .about-me-wrap {
   display: grid;
-  height: 150%;
+  height: 200%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 10% 45% 45%;
+  grid-template-rows: 50% 50%;
   grid-template-areas:
-    "header"
     "bio"
     "skillset";
-    background: url(what-the-hex-dark.png);
+  justify-content: center;
+  align-content: center;
+  background: url(what-the-hex-dark.png);
 }
 
-.about-me-h1 {
+/* .about-me-h1 {
   grid-area: header;
+} */
+
+.bio-div, .skillsets-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .bio-div {
   grid-area: bio;
+  padding: 10px;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .skillsets-div {
   grid-area: skillset;
+  padding: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.skillsets-div {
+  display: flex;
+
+}
+
+.frontend-skills-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .2fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "html css"
+    "js jquery"
+    "react redux";
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.front-skills-h3 {
+  grid-area: header;
+}
+
+.backend-skills-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .2fr 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "node express"
+    "jwt mongo";
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.back-skills-h3 {
+  grid-area: header;
 }

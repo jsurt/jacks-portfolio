@@ -21,3 +21,34 @@
 .jwt {
   height: 20px;
 }
+
+.color-icon {
+  display: block;
+  width: 47px;
+  margin: auto;
+}
+
+.color-icon.css {
+  width: 39px;
+}
+
+.color-icon.javascript {
+  width: 35px;
+}
+
+.color-icon.node {
+  width: 100px;
+}
+
+.color-icon.mongo {
+  width: 68px;
+}
+
+.color-icon.express {
+  width: 60px;
+}
+
+.color-icon.jwt {
+  width: 85px;
+  height: 65px;
+}
