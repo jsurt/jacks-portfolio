@@ -132,11 +132,16 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 .app-screenshot {
  width: 376px;
- margin: 5px auto;
- margin-top: 50px;
+ margin: auto;
 }
 
+#threetv, #task-timer {
+  background: url(what-the-hex.png);
+}
 
+#matcher {
+  background: url(what-the-hex-dark.png)
+}
 
 
 
