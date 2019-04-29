@@ -1,25 +1,38 @@
 .icon {
-  width: 40px;
+  position: relative;
+  width: 45px;
 }
 
 .css {
-  width: 30px;
+  width: 37px;
+  right: 3px;
+  bottom: 3px;
 } 
 
 .js {
-  width: 40px;
+  width: 37px;
+  bottom: 3px;
+  border-radius: 2px
 }
 
 .jquery {
-  width: 48px;
+  width: 43px;
+  top: 3px;
 }
 
 .threejs {
-  width: 44px;
+  width: 40px;
+  top: 3px;
+}
+
+.newer-node-icon {
+  width: 75px;
 }
 
 .jwt {
-  height: 20px;
+  height: 75;
+  width: 57px;
+  right: 8px;
 }
 
 .color-icon {
@@ -37,7 +50,7 @@
 }
 
 .color-icon.node {
-  width: 100px;
+  width: 60px;
 }
 
 .color-icon.mongo {
