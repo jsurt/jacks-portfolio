@@ -125,17 +125,23 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   margin-top: 30px;
 }
 
+#threetv, #task-timer {
+  background: url(what-the-hex.png);
+}
+
+#matcher {
+  background: url(what-the-hex-dark.png);
+}
+
 .portfolio {
   padding: 0px;
   /* background: #ffff00; */
 }
 
 .app-screenshot {
- width: 376px;
- margin: 5px auto;
- margin-top: 50px;
+ width: 320px;
+ margin: auto;
 }
-
 
 
 
