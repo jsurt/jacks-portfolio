@@ -248,11 +248,20 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 .js-email-label {
   right: 13px;
+  text-decoration: underline #df5043;
 }
 
 .linkedin-label {
   top: 20px;
   right: 52px;
+}
+
+.linkedin-label > a {
+  color: #2275b5;
+}
+
+.github-label > a {
+  color: #ee5032;
 }
 
 .github-label {
