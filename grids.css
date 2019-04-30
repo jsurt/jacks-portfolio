@@ -35,11 +35,11 @@
 /* About Me grids and flex-boxes */
 .about-me-wrap {
   display: grid;
-  /* height: 200%;
-  min-height: 620px; */
+  height: 200%;
+  min-height: 1260px; 
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 50% 50% 6%;
+  grid-template-rows: 45% 50%;
   grid-template-areas:
     "bio"
     "skillset"
@@ -140,7 +140,7 @@
 /* Flexbox for icons under project image */
 .tech-icons-div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   justify-items: center;
   align-content: center;
