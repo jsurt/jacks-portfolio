@@ -14,12 +14,12 @@
 
 .greeting-section {
   grid-area: greeting;
-  background: url(what-the-hex-dark.png); 
+  background: url(./images/what-the-hex-dark.png); 
 }
 
 .nav-buttons-section {
   grid-area: nav-buttons;
-  background: url(what-the-hex.png);
+  background: url(./images/what-the-hex.png);
 }
 
 .greeting-section, .nav-buttons-section{
@@ -48,7 +48,7 @@
   justify-items: center;
   align-content: start;
   align-items: start;
-  background: url(what-the-hex-dark.png);
+  background: url(./images/what-the-hex-dark.png);
 }
 
 .portfolio-link {

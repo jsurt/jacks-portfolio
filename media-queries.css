@@ -4,9 +4,6 @@
     font-size: 32px;
     line-height: 52px;
   }
-  /* .name-span {
-    font-size: 42px;
-  } */
   .nav-button {
     color: #ffffff;
     background-color: #309a72;
@@ -44,7 +41,7 @@
     flex-direction: row;
   }
   .contact-page-link {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
 
