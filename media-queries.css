@@ -1,39 +1,52 @@
 @media only screen and (min-width: 625px) {
   .name-p {
+    width: 640px;
     font-size: 32px;
     line-height: 52px;
   }
-  .name-span {
+  /* .name-span {
     font-size: 42px;
-  }
+  } */
   .nav-button {
     color: #ffffff;
-    background-color: #f9b3d6;
+    background-color: #309a72;
   }
   .about-me-wrap {
     height: 100%;
+    min-height: 720px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 45% 45%;
+    grid-template-rows: 80% 5%;
     grid-template-areas:
-      "header header"
       "bio skillset"
-      "bio skillset";
+      "portfolio-link portflio-link";
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
   }
   .about-me-h2 {
     text-align: center;
   }
-}
-
-/* @media only screen and (min-width: 850px) {
-  .about-me-wrap {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 45% 45%;
-    grid-template-areas:
-      "header header"
-      "bio skillset"
-      "bio skillset";
+  .portfolio-link {
+    padding-top: 8px;
   }
-} */
+  #threetv, #matcher, #task-timer {
+    height: 100%;
+    min-height: 740px;
+  } 
+  .app-screenshot {
+    width: 500px;
+  }
+  #contact {
+    min-height: 420px;
+  }
+  .contact-methods-wrap {
+    flex-direction: row;
+  }
+  .contact-page-link {
+    margin-top: 150px;
+  }
+}
 
 @media only screen and (max-height: 510px) {
   .name-p {
