@@ -37,18 +37,16 @@
   .app-screenshot {
     width: 500px;
   }
-}
-
-/* @media only screen and (min-width: 850px) {
-  .about-me-wrap {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 45% 45%;
-    grid-template-areas:
-      "header header"
-      "bio skillset"
-      "bio skillset";
+  #contact {
+    min-height: 420px;
   }
-} */
+  .contact-methods-wrap {
+    flex-direction: row;
+  }
+  .contact-page-link {
+    margin-top: 150px;
+  }
+}
 
 @media only screen and (max-height: 510px) {
   .name-p {

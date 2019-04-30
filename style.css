@@ -50,10 +50,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   color: #ce4166;
 }
 
-/* .headline-p {
-  
-} */
-
 .nav-buttons-div {
   position: absolute;
   top: 50%;
@@ -125,28 +121,18 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   margin-top: 30px;
 }
 
-/* #threetv {
-  height: 125%;
-} */
-
-/* #matcher {
-  height: 150%;
-} */
-
 #threetv, #task-timer {
   background: url(what-the-hex.png);
 }
 
-#matcher {
+#matcher, #contact {
   background: url(what-the-hex-dark.png);
 }
 
 .portfolio {
-  /* height: 100%; */
   width: 100%;
   padding: 0px;
   font-family: 'Raleway', sans-serif;
-  /* background: #ffff00; */
 }
 
 .app-description {
@@ -226,18 +212,67 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   color: #ffffff;
 }
 
-/* .navigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #999999;
+#contact {
+  height: 100%;
+  color: #ffffff;
 }
 
-.nav-list {
-  list-style: none;
+.contact-section-wrap {
+  text-align: center;
 }
 
-.nav-item {
-  display: inline-block;
-} */
+.contact-section {
+  position: relative;
+  top: 15%;
+}
+
+.contact-h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 42px;
+}
+
+.contact-method-div {
+  margin-top: 5%;
+  width: 150px;
+  height: 75px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-label {
+  display: block;
+  width: 275px;
+  position: relative;
+}
+
+.js-email-label {
+  right: 13px;
+}
+
+.linkedin-label {
+  top: 20px;
+  right: 52px;
+}
+
+.github-label {
+  top: 15px;
+  right: 15px;
+}
+
+.linkedin-link {
+  width: 45px;
+  display: block;
+  margin: auto;
+}
+
+
+.contact-page-link {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: #daf431;
+  text-align: center;
+}

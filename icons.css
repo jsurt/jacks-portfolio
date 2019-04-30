@@ -66,3 +66,18 @@
   width: 85px;
   height: 65px;
 }
+
+.icon.gmail, .icon.linkedin, .icon.github {
+  display: block;
+  margin: auto;
+}
+
+.icon.gmail {
+  width: 60px;
+  bottom: 10px;
+}
+
+.icon.linkedin {
+  width: 40px;
+  border-radius: 2px;
+}
