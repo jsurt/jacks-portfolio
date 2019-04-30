@@ -1,0 +1,31 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .skill-slider {
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: #ff0000;
+    width: 120px;
+    border-radius: 3px;
+  }
+
+  .skill-slider::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #42ff58e7;
+    margin-top: -1px;
+  }
+
+  .skill-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0px;
+    height: 15px;
+    background: #42ff58;
+    cursor: pointer;
+    box-shadow: -120px 0 0 120px #42ff58;
+  }
+}
+.skill-slider::-moz-range-progress {
+  background-color: #42ff58; 
+}
+.skill-slider::-moz-range-track {  
+  background-color: #ff0000;
+}

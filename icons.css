@@ -1,23 +1,83 @@
 .icon {
-  width: 40px;
+  position: relative;
+  width: 45px;
+  margin: auto;
 }
 
 .css {
-  width: 30px;
+  width: 37px;
+  right: 3px;
+  bottom: 3px;
 } 
 
 .js {
-  width: 40px;
+  width: 37px;
+  bottom: 3px;
+  border-radius: 2px
 }
 
 .jquery {
-  width: 48px;
+  width: 43px;
+  top: 3px;
 }
 
 .threejs {
-  width: 44px;
+  width: 40px;
+  top: 3px;
+}
+
+.newer-node-icon {
+  width: 75px;
 }
 
 .jwt {
-  height: 20px;
+  height: 75;
+  width: 57px;
+  right: 8px;
+}
+
+.color-icon {
+  display: block;
+  width: 47px;
+  margin: auto;
+}
+
+.color-icon.css {
+  width: 39px;
+}
+
+.color-icon.javascript {
+  width: 35px;
+}
+
+.color-icon.node {
+  width: 60px;
+}
+
+.color-icon.mongo {
+  width: 68px;
+}
+
+.color-icon.express {
+  width: 60px;
+}
+
+.color-icon.jwt {
+  width: 85px;
+  height: 65px;
+}
+
+.icon.gmail, .icon.linkedin, .icon.github {
+  display: block;
+  margin: auto;
+}
+
+.icon.gmail {
+  width: 60px;
+  bottom: 10px;
+}
+
+.icon.linkedin {
+  width: 40px;
+  border-radius: 2px;
 }

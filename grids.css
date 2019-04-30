@@ -4,52 +4,157 @@
   height: 100%;
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 40% 20% 40%;
+  grid-template-rows: 50% 50%;
   grid-template-areas: 
     "greeting"
-    "nav-buttons"
-    "empty";
+    "nav-buttons";
   justify-content: center;
   align-content: center;
 }
 
 .greeting-section {
-  grid-area: "greeting";
-  background: url(background-pattern-light.png);
+  grid-area: greeting;
+  background: url(what-the-hex-dark.png); 
 }
 
 .nav-buttons-section {
-  grid-area: "nav-buttons";
-  background: url(background-pattern-dark.png);
+  grid-area: nav-buttons;
+  background: url(what-the-hex.png);
 }
 
-.empty-grid-item {
-  grid-area: "empty";
-  background: url(background-pattern-light.png);
+.greeting-section, .nav-buttons-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* About Me grid */
+.nav-button {
+  margin: 10px;
+}
+
+/* About Me grids and flex-boxes */
 .about-me-wrap {
   display: grid;
-  height: 150%;
+  height: 200%;
+  min-height: 1260px; 
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 10% 45% 45%;
+  grid-template-rows: 45% 50%;
   grid-template-areas:
-    "header"
     "bio"
-    "skillset";
-  background: url(background-pattern-dark.png);
+    "skillset"
+    "portfolio-link";
+  justify-content: start;
+  justify-items: center;
+  align-content: start;
+  align-items: start;
+  background: url(what-the-hex-dark.png);
 }
 
-.about-me-h1 {
-  grid-area: header;
+.portfolio-link {
+  grid-area: portfolio-link;
+}
+
+
+
+.bio-div, .skillsets-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .bio-div {
   grid-area: bio;
+  padding: 10px;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .skillsets-div {
   grid-area: skillset;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsets-div {
+  display: flex;
+}
+
+.frontend-skills-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .2fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "html css"
+    "js jquery"
+    "react redux";
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.front-skills-h3 {
+  grid-area: header;
+}
+
+.backend-skills-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .2fr 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "node express"
+    "jwt mongo";
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.back-skills-h3 {
+  grid-area: header;
+}
+
+/* Grids and flexboxes for portfolio */
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center; 
+  justify-items: center;
+}
+
+.app-screenshot {
+  grid-area: image;
+  flex-grow: 3;
+}
+
+.tech-icons-div
+
+/* Flexbox for icons under project image */
+.tech-icons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Grid for contact page */
+#contact {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-methods-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
