@@ -15,16 +15,24 @@
     height: 100%;
     min-height: 620px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 80%;
+    grid-template-rows: 80% 5%;
     grid-template-areas:
-      "bio skillset";
-    /* justify-content: baseline;
+      "bio skillset"
+      "portfolio-link portflio-link";
+    justify-content: baseline;
+    justify-items: center;
     align-content: baseline;
-    align-items: baseline; */
+    align-items: baseline;
   }
   .about-me-h2 {
     text-align: center;
   }
+  .portfolio-link {
+    padding-top: 8px;
+  }
+  #threetv, #matcher, #task-timer {
+    height: 100%;
+  } 
 }
 
 /* @media only screen and (min-width: 850px) {

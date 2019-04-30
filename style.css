@@ -97,7 +97,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .about-me-h2 {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 0px;
   padding-left: 7px;
   font-family: 'Orbitron', sans-serif;
@@ -125,6 +125,14 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   margin-top: 30px;
 }
 
+/* #threetv {
+  height: 125%;
+} */
+
+/* #matcher {
+  height: 150%;
+} */
+
 #threetv, #task-timer {
   background: url(what-the-hex.png);
 }
@@ -134,13 +142,26 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .portfolio {
+  /* height: 100%; */
+  width: 100%;
   padding: 0px;
+  font-family: 'Raleway', sans-serif;
   /* background: #ffff00; */
+}
+
+.app-description {
+  max-width: 560px;
+  padding: 5px;
+}
+
+.app-description.matcher-description {
+  color: #ffffff
 }
 
 .app-screenshot {
  width: 320px;
  margin: auto;
+ margin-top: 0px;
 }
 
 #threetv, #task-timer {
@@ -151,7 +172,34 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   background: url(what-the-hex-dark.png)
 }
 
+.portfolio-link {
+  display: inline-block;
+  width: 90px;
+  height: 35px;
+  padding-top: 7px;
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2a81fb;
+  box-shadow: 1px 1px 1px #e1e1e1;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 2px;
+  transition: box-shadow 0.4s;
+}
 
+.portfolio-link:hover{
+  box-shadow: 2px 2px 2px #e1e1e1;
+}
+
+.white-backgrnd {
+  box-shadow: 1px 1px 1px #262626;
+}
+
+.white-backgrnd:hover {
+  box-shadow: 2px 2px 2px #1c1c1c;
+}
 
 
 /* .navigation {

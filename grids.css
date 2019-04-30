@@ -35,17 +35,27 @@
 /* About Me grids and flex-boxes */
 .about-me-wrap {
   display: grid;
-  height: 250%;
+  /* height: 200%;
+  min-height: 620px; */
   width: 100%;
   grid-template-columns: 100%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 50% 50% 6%;
   grid-template-areas:
     "bio"
-    "skillset";
-  justify-content: center;
-  align-content: center;
+    "skillset"
+    "portfolio-link";
+  justify-content: start;
+  justify-items: center;
+  align-content: start;
+  align-items: start;
   background: url(what-the-hex-dark.png);
 }
+
+.portfolio-link {
+  grid-area: portfolio-link;
+}
+
+
 
 .bio-div, .skillsets-div {
   display: flex;
@@ -68,7 +78,6 @@
 
 .skillsets-div {
   display: flex;
-
 }
 
 .frontend-skills-div {
@@ -110,15 +119,23 @@
 
 /* Grids and flexboxes for portfolio */
 .project-section {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 0.5fr 1fr 0.1fr;
+  display: flex;
+  /* width: 100%;
+  height: 100%; */
+  /* grid-template-columns: 100%; */
+  flex-direction: column;
   align-content: center;
-  justify-content: center;
+  align-items: center;
+  justify-content: center; 
   justify-items: center;
 }
+
+.app-screenshot {
+  grid-area: image;
+  flex-grow: 3;
+}
+
+.tech-icons-div
 
 /* Flexbox for icons under project image */
 .tech-icons-div {
