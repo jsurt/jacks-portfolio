@@ -122,11 +122,11 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 #threetv, #task-timer {
-  background: url(./images/what-the-hex.png);
+  background: url("../images/what-the-hex.png");
 }
 
 #matcher, #contact {
-  background: url(./images/what-the-hex-dark.png);
+  background: url(./../images/what-the-hex-dark.png);
 }
 
 .portfolio {
@@ -151,11 +151,11 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 #threetv, #task-timer {
-  background: url(./images/what-the-hex.png);
+  background: url(./../images/what-the-hex.png);
 }
 
 #matcher {
-  background: url(./images/what-the-hex-dark.png)
+  background: url(./../images/what-the-hex-dark.png)
 }
 
 .portfolio-link {
