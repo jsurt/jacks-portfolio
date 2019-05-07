@@ -81,3 +81,8 @@
   width: 40px;
   border-radius: 2px;
 }
+
+.icon.github {
+  width: 55px;
+  bottom: 8px;
+}

@@ -7,7 +7,7 @@ $(() => {
   $(".icon.linkedin").mouseover(() => {
     $(".contact-label").empty();
     $(".linkedin-label").html(
-      '<a href="www.linkedin.com/in/john-surtees">www.linkedin.com/in/john-surtees</a>'
+      '<a href="https://www.linkedin.com/in/john-surtees">www.linkedin.com/in/john-surtees</a>'
     );
   });
   $(".icon.github").mouseover(() => {
