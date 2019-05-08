@@ -14,12 +14,10 @@
 
 .greeting-section {
   grid-area: greeting;
-  background: url(./images/what-the-hex.png);
 }
 
 .nav-buttons-section {
   grid-area: nav-buttons;
-  background: url(./images/what-the-hex-dark.png);
 }
 
 .greeting-section, .nav-buttons-section{

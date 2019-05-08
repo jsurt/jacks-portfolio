@@ -20,6 +20,13 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   text-align: center;
 }
 
+.greeting-section {
+  background: url(../images/what-the-hex.png);
+}
+
+.nav-buttons-section {
+  background: url(../images/what-the-hex-dark.png);
+}
 
 .greeting {
   max-width: 640px;
