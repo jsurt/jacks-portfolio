@@ -40,6 +40,7 @@
   display: block;
   width: 47px;
   margin: auto;
+  position: relative;
 }
 
 .color-icon.css {
@@ -47,6 +48,7 @@
 }
 
 .color-icon.javascript {
+  bottom: 4px;
   width: 35px;
 }
 
@@ -65,6 +67,7 @@
 .color-icon.jwt {
   width: 85px;
   height: 65px;
+  left: 1px;
 }
 
 .icon.gmail, .icon.linkedin, .icon.github {

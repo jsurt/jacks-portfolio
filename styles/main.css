@@ -34,7 +34,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   margin-bottom: 7%;
   font-size: 24px;
   line-height: 28px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .name-span {
@@ -69,11 +69,11 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   transform: background-color 0.5s;
   background-color: #309a72;
   transition: box-shadow 0.4s;
-  box-shadow: 2px 2px 2px #222222;
+  box-shadow: 2px 2px 1px #a5a5a5;
 }
 
 .nav-button:hover, .nav-button:active {
-  box-shadow: 4px 4px 3px #444444;
+  box-shadow: 4px 4px 1px #747474;
 }
 
 .about-me-h1 {
@@ -121,58 +121,28 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   margin-top: 30px;
 }
 
-#threetv, #task-timer {
-  background: url("../images/what-the-hex.png");
-}
-
-#matcher, #contact {
-  background: url(./../images/what-the-hex-dark.png);
-}
-
 .portfolio {
-  width: 100%;
-  padding: 0px;
   font-family: 'Raleway', sans-serif;
+  background: url(../images/what-the-hex.png);
+}
+
+.project-section {
+  margin-top: 25px;
 }
 
 .app-description {
-  max-width: 640px;
-  padding: 5px;
-}
-
-.app-description.matcher-description {
-  color: #ffffff
+  max-width: 400px;
+  padding: 10px;
+  text-align: justify;
 }
 
 .app-screenshot {
  width: 320px;
- margin: auto;
- margin-top: 0px;
+ height: 240px;
 }
 
-#threetv, #task-timer {
-  background: url(./../images/what-the-hex.png);
-}
-
-#matcher {
-  background: url(./../images/what-the-hex-dark.png)
-}
-
-.portfolio-link {
-  display: inline-block;
-  width: 120px;
-  height: 35px;
-  padding-top: 7px;
-  margin: auto;
-  margin-bottom: 25px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #2a81fb;
-  box-shadow: 1px 1px 1px #e1e1e1;
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  border-radius: 2px;
-  transition: box-shadow 0.4s;
+.frontend-icons {
+  padding-top: 10px;
 }
 
 .portfolio-link:hover{
@@ -208,13 +178,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   color: #ed6589;
 }
 
-#link-divider-matcher {
-  color: #ffffff;
-}
-
 #contact {
   height: 100%;
-  color: #ffffff;
+  color: #000000;
 }
 
 .contact-section-wrap {
@@ -231,7 +197,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 .contact-h1 {
   margin-top: 0px;
-  color: #ffffff;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
   font-size: 42px;
