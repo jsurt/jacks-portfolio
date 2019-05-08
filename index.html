@@ -23,85 +23,16 @@
       </p>
     </section>
     <section class="nav-buttons-section">
-        <a class="nav-button about-me-btn" href="#about-me">About Me</a>
-        <a class="nav-button portfolio-btn" href="#threetv">My Work</a>
-        <a class="nav-button contact-btn" href="#contact">Contact</a>
+      <a class="nav-button portfolio-btn" href="#portfolio">My Work</a>
+      <a class="nav-button about-me-btn" href="#about-me">About Me</a>
+      <a class="nav-button contact-btn" href="#contact">Contact</a>
     </section>
   </div>
-  <div id="about-me" class="section-wrap about-me-wrap">
-      <div class="bio-div">
-        <h2 class="about-me-h2 bio-header">Who Am I ?</h2>
-        <p class="about-me-p">
-          I am a full stack developer and a recent graduate of Thinkful's Full Stack Flex course. I enjoy all the roles that 
-          developers must play, from envisioning new applications to solving challenging problems and working with my fellow 
-          developers. I also love to learn new frameworks and libraries that change the way I approach problems and the development 
-          process. 
-        </p>
-        <hr class="bio-p-divider">
-        <p class="about-me-p">
-            When I'm not coding, I keep myself busy with watching the Red Sox, playing 
-            my violin, going on a hike or playing tennis, getting a drink with friends, or 
-            just getting lost in a book.  don't like a monotonous, placid day-to-day, and that's why I love being a developer.
-
-        </p>
-      </div>
-      <div class="skillsets-div">
-        <h2 class="about-me-h2 skills-header">My Skillset</h2>
-        <div class="frontend-skills-div">
-          <h3 class="front-skills-h3">Front End</h3>
-          <div class="skill-div skill-html">
-            <img src="./images/color-html-icon.png" alt="HTML icon" class="color-icon html">
-            <input type="range" min="0" max="100" value="85" class="skill-slider" disabled>
-          </div>
-          <div class="skill-div skill-css">
-            <img src="./images/color-css-icon.png" alt="CSS icon" class="color-icon css">
-            <input type="range" min="0" max="100" value="76" class="skill-slider" disabled>
-          </div>
-          <div class="skill-div skill-javascript">
-            <img src="./images/color-js-icon.png" alt="JavaScript icon" class="color-icon javascript">
-            <input type="range" min="0" max="100" value="70" class="skill-slider" disabled>
-          </div>
-          <div class="skill-div skill-jquery">
-            <img src="./images/color-jquery-icon.png" alt="jQuery icon" class="color-icon jquery">
-            <input type="range" min="0" max="100" value="69" class="skill-slider" disabled>
-          </div>
-          <div class="skill-div skill-react">
-            <img src="./images/color-react-icon.png" alt="React icon" class="color-icon react">
-            <input type="range" min="0" max="100" value="60" class="skill-slider" disabled>
-          </div>
-          <div class="skill-div skill-redux">
-            <img src="./images/color-redux-icon.png" alt="Redux icon" class="color-icon redux">
-            <input type="range" min="0" max="100" value="58" class="skill-slider" disabled>
-        </div>
-      </div>
-      <div class="backend-skills-div">
-        <h3 class="back-skills-h3">Back End</h3>
-        <div class="skill-div skill-node">
-            <img src="./images/newer-node-icon.png" alt="Node icon" class="color-icon node">
-            <input type="range" min="0" max="100" value="69" class="skill-slider" disabled>
-        </div>
-        <div class="skill-div skill-express">
-            <img src="./images/color-express-icon (1).png" alt="Express icon" class="color-icon express">
-            <input type="range" min="0" max="100" value="69" class="skill-slider" disabled>
-        </div>
-        <div class="skill-div skill-jwt">
-            <img src="./images/color-jwt-icon.png" alt="JSON Web Token icon" class="color-icon jwt">
-            <input type="range" min="0" max="100" value="69" class="skill-slider" disabled>
-        </div>
-        <div class="skill-div skill-mongo">
-            <img src="./images/color-mongodb-icon (2).png" alt="MongoDB icon" class="color-icon mongo">
-            <input type="range" min="0" max="100" value="69" class="skill-slider" disabled>
-        </div>
-      </div>
-      </div>
-  </div>
-  
-
-  <div id="threetv" class="section-wrap portfolio">
-      <section class="project-section">
+  <div id="portfolio" class="portfolio">
+      <section id="threetv" class="project-section">
         <img class="app-screenshot threetv-img" src="./images/threetv-img.png" alt="Screenshot of Retro YouTube app">
         <div class="tech-icons-div">
-          <div class="front-end-icons">
+          <div class="frontend-icons">
             <img class="icon html" src="./images/color-html-icon.png" alt="HTML icon">
             <img class="icon css" src="./images/color-css-icon.png" alt="CSS icon">
             <img class="icon js" src="./images/color-js-icon.png" alt="JavaScript icon">
@@ -127,13 +58,11 @@
           their phone as a remote, which renders via media queries when the site is loaded on mobile.
         </p>
       </section>
-  </div>
-
-  <div id="matcher" class="section-wrap portfolio">      
-    <section class="project-section">
+        
+    <section id="matcher" class="project-section">
       <img class="app-screenshot matcher-img" src="./images/matcher-img.png" alt="Screenshot of Match-Er app">
       <div class="tech-icons-div">
-        <div class="front-end-icons">
+        <div class="frontend-icons">
             <img class="icon html" src="./images/color-html-icon.png" alt="HTML icon">
             <img class="icon css" src="./images/color-css-icon.png" alt="CSS icon">
           <img class="icon react" src="./images/color-react-icon.png" alt="React icon">
@@ -159,10 +88,8 @@
         receive invitations to matches, arrange the time and place, save the scores of completed matches, and track their overall record.
       </p>
     </section>
-  </div>
-
-  <div id="task-timer" class="section-wrap portfolio">      
-    <section class="project-section">
+        
+    <section id="task-timer" class="project-section">
       <img class="app-screenshot task-timer-img" src="./images/task-timer-img.png" alt="Screenshot of Task Timer application">
       <div class="tech-icons-div">
         <div class="frontend-icons">
@@ -184,8 +111,8 @@
         <a href="https://enigmatic-falls-89101.herokuapp.com" class="view-app-option view-live" target="_blank">Live App</a>
       </div>
         <p class="app-description task-timer-description">    
-          Task-Timer started out as timer for Rubik's cubes that would record all a User's solves. I quickly realized that this 
-          idea wouldn't appeal to many people, let alone be useful to them, so I reworked it as a timer that "times" productivity. 
+          Task-Timer started out as timer for Rubik's cubes that would record all a User's solves. I realized that this 
+          idea wouldn't be useful to many people, so I reworked it as a timer that "times" productivity. 
           Users select a task from a dropdown, such as checking email, catching up on news, or studying, and press "Start." A timer runs 
           until the user decides to stop their task. After stopping the task, the user is able to make notes on what they specifically they 
           worked on, or what they accomplished. The task's title, time, date, and notes are saved and can be viewed along with other previous 
@@ -193,6 +120,74 @@
         </p>
     </section>
   </div>
+
+  <div id="about-me" class="section-wrap about-me-wrap">
+    <div class="bio-div">
+      <h2 class="about-me-h2 bio-header">Who Am I ?</h2>
+      <p class="about-me-p">
+        I am a full stack developer and a recent graduate of Thinkful's Full Stack Flex course. I enjoy all the roles that 
+        developers must play, from envisioning new applications to solving challenging problems and working with my fellow 
+        developers. I also love to learn new frameworks and libraries that change the way I approach problems and the development 
+        process. 
+      </p>
+      <hr class="bio-p-divider">
+      <p class="about-me-p">
+          When I'm not coding, I keep myself busy with watching the Red Sox, playing 
+          my violin, going on a hike or playing tennis, getting a drink with friends, or 
+          just getting lost in a book.  don't like a monotonous, placid day-to-day, and that's why I love being a developer.
+
+      </p>
+    </div>
+    <div class="skillsets-div">
+      <h2 class="about-me-h2 skills-header">My Skillset</h2>
+      <div class="frontend-skills-div">
+        <h3 class="front-skills-h3">Front End</h3>
+        <div class="skill-div skill-html">
+          <img src="./images/color-html-icon.png" alt="HTML icon" class="color-icon html">
+          <!-- <p class="skill-tile">HTML</p> -->
+        </div>
+        <div class="skill-div skill-css">
+          <img src="./images/color-css-icon.png" alt="CSS icon" class="color-icon css">
+          <!-- <p class="skill-title">CSS</p> -->
+        </div>
+        <div class="skill-div skill-javascript">
+          <img src="./images/color-js-icon.png" alt="JavaScript icon" class="color-icon javascript">
+          <!-- <p class="skill-title">JavaScript</p> -->
+        </div>
+        <div class="skill-div skill-jquery">
+          <img src="./images/color-jquery-icon.png" alt="jQuery icon" class="color-icon jquery">
+          <!-- <p class="skill-title">jQuery</p> -->
+        </div>
+        <div class="skill-div skill-react">
+          <img src="./images/color-react-icon.png" alt="React icon" class="color-icon react">
+          <!-- <p class="skill-title">React</p> -->
+        </div>
+        <div class="skill-div skill-redux">
+          <img src="./images/color-redux-icon.png" alt="Redux icon" class="color-icon redux">
+          <!-- <p class="skill-title">Redux</p> -->
+      </div>
+    </div>
+    <div class="backend-skills-div">
+      <h3 class="back-skills-h3">Back End</h3>
+      <div class="skill-div skill-node">
+          <img src="./images/newer-node-icon.png" alt="Node icon" class="color-icon node">
+          <!-- <p class="skill-title">Node</p> -->
+      </div>
+      <div class="skill-div skill-express">
+          <img src="./images/color-express-icon (1).png" alt="Express icon" class="color-icon express">
+          <!-- <p class="skill-title">Express</p> -->
+      </div>
+      <div class="skill-div skill-jwt">
+          <img src="./images/color-jwt-icon.png" alt="JSON Web Token icon" class="color-icon jwt">
+          <!-- <p class="skill-title">JWT Auth</p> -->
+      </div>
+      <div class="skill-div skill-mongo">
+          <img src="./images/color-mongodb-icon (2).png" alt="MongoDB icon" class="color-icon mongo">
+          <!-- <p class="skill-title">MongoDB</p> -->
+      </div>
+    </div>
+    </div>
+</div>
 
   <div id="contact" class="section-wrap contact">
     <section class="contact-section">

@@ -14,12 +14,14 @@
 
 .greeting-section {
   grid-area: greeting;
-  background: url(./images/what-the-hex-dark.png); 
+  background: url(../images/what-the-hex.png);
+  /* background: url(./images/what-the-hex-dark.png);  */
 }
 
 .nav-buttons-section {
   grid-area: nav-buttons;
-  background: url(./images/what-the-hex.png);
+  /* background: url(./images/what-the-hex.png); */
+  background: url(../images/what-the-hex-dark.png);
 }
 
 .greeting-section, .nav-buttons-section{
@@ -30,6 +32,42 @@
 
 .nav-button {
   margin: 10px;
+}
+
+/* Grids and flexboxes for portfolio */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-section {
+  /* max-width: 350px; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center; 
+  justify-items: center;
+  color: #000000;
+}
+
+/* .app-screenshot {
+  flex-grow: 3;
+} */
+
+.tech-icons-div
+
+/* Flexbox for icons under project image */
+.tech-icons-div {
+  overflow: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
 }
 
 /* About Me grids and flex-boxes */
@@ -55,9 +93,7 @@
   grid-area: portfolio-link;
 }
 
-
-
-.bio-div, .skillsets-div {
+.bio-div {
   display: flex;
   flex-direction: column;
 }
@@ -76,8 +112,9 @@
   align-items: center;
 }
 
-.skillsets-div {
+.frontend-skill-div {
   display: flex;
+  flex-direction: row;
 }
 
 .frontend-skills-div {
@@ -117,37 +154,11 @@
   grid-area: header;
 }
 
-/* Grids and flexboxes for portfolio */
-.project-section {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  justify-content: center; 
-  justify-items: center;
-}
-
-.app-screenshot {
-  grid-area: image;
-  flex-grow: 3;
-}
-
-.tech-icons-div
-
-/* Flexbox for icons under project image */
-.tech-icons-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center;
-}
-
 /* Grid for contact page */
 #contact {
   height: 100%;
   width: 100%;
+  background: url("../images/what-the-hex.png");
 }
 
 .contact-methods-wrap {
