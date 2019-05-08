@@ -15,12 +15,10 @@
 .greeting-section {
   grid-area: greeting;
   background: url(../images/what-the-hex.png);
-  /* background: url(./images/what-the-hex-dark.png);  */
 }
 
 .nav-buttons-section {
   grid-area: nav-buttons;
-  /* background: url(./images/what-the-hex.png); */
   background: url(../images/what-the-hex-dark.png);
 }
 
@@ -41,7 +39,6 @@
 }
 
 .project-section {
-  /* max-width: 350px; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -51,12 +48,6 @@
   justify-items: center;
   color: #000000;
 }
-
-/* .app-screenshot {
-  flex-grow: 3;
-} */
-
-.tech-icons-div
 
 /* Flexbox for icons under project image */
 .tech-icons-div {
