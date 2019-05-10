@@ -20,7 +20,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   text-align: center;
 }
 
-.greeting-section {
+.greeting-section, #contact {
   background: url(../images/what-the-hex.png);
 }
 
@@ -188,7 +188,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 #contact {
   height: 100%;
   width: 100%;
-  background: url("../images/what-the-hex.png");
 }
 
 .contact-section-wrap {
