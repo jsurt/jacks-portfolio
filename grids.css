@@ -51,12 +51,7 @@
 .tech-icons-div {
   overflow: auto;
   padding: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 /* About Me grids and flex-boxes */

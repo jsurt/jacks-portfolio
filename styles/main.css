@@ -149,6 +149,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .frontend-icons {
+  display: block;
   padding-top: 10px;
 }
 
