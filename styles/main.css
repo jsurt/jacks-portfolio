@@ -187,7 +187,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 #contact {
   height: 100%;
-  color: #000000;
+  width: 100%;
+  background: url("../images/what-the-hex.png");
 }
 
 .contact-section-wrap {
