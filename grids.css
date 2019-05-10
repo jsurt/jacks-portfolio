@@ -144,12 +144,6 @@
 }
 
 /* Grid for contact page */
-#contact {
-  height: 100%;
-  width: 100%;
-  background: url("../images/what-the-hex.png");
-}
-
 .contact-methods-wrap {
   display: flex;
   flex-direction: column;
